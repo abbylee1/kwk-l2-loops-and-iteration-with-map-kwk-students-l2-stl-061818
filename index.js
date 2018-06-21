@@ -15,8 +15,5 @@ function lowerCaseStudentNames(names) {
 function firstAndLast(actress) {
   const actressFirst = actress.split (" ")[0]
   const actressLast = actress.split ("")[1]
-}
-
-function nameToAttributes(names) {
-  return firstName()
+  return {firstName: actressFirst,lastName: actressLast}
 }
