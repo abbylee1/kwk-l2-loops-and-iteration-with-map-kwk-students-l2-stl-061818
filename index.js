@@ -13,8 +13,8 @@ function lowerCaseStudentNames(names) {
 //const fullNames = ['Amy Adams', 'Cate Blanchett', 'Emma Stone', 'Jennifer Lawrence', 'Natalie Portman']
 
 function firstAndLast(actress) {
-  let actressFirst = actress.split (" ")[0]
-  let actressLast = actress.split ("")[1]
+  const actressFirst = actress.split (" ")[0]
+  const actressLast = actress.split ("")[1]
   return {firstName: actressFirst,lastName: actressLast}
 }
 
