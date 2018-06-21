@@ -17,3 +17,4 @@ function firstAndLast(actress) {
   const actressLast = actress.split ("")[1]
   return {firstName: actressFirst,lastName: actressLast}
 }
+
