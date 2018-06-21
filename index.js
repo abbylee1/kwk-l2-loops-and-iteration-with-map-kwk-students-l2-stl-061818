@@ -18,3 +18,6 @@ function firstAndLast(actress) {
   return {firstName: actressFirst,lastName: actressLast}
 }
 
+function nameToAttributes(movie) {
+  return movie.map(firstAndLast)
+}
